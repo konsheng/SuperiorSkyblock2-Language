@@ -1,0 +1,113 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+# The mission file to use
+mission-file: KillsMissions
+
+# Whether the mission should be given when completing all requirements.
+auto-reward: true
+
+# Should block counts of players get reset when completing the mission?
+reset-after-finish: true
+
+# Rewards given when completing the mission.
+rewards:
+  commands:
+    - 'cmi money give %player% 250000'
+    - 'is admin unlockworld %player% the_end true'
+    - 'is admin msg %player% &e&l杀手 &8» &7Successfully finished the mission Slayer IV!'
+    - 'is admin msg %player% &e&l杀手 &8» &7You passed all the tests, you are ready now for the end...'
+    - 'is admin msg %player% &e&l杀手 &8» &7&o有关下一个任务的更多信息, 请查看 /is missions'
+
+# List of required missions that must be completed before completing this one.
+required-missions:
+  - 'slayer_1'
+  - 'slayer_2'
+  - 'slayer_3'
+
+# List of all required blocks must be gathered in order to complete the mission.
+required-entities:
+  '1':
+    types:
+      - 'WITHER'
+    amount: 1
+
+# Icons used in the menus.
+icons:
+  not-completed:
+    type: PAPER
+    name: '&a杀手 IV'
+    lore:
+      - '&7在结束之前, 还剩下一个任务'
+      - '&7杀死凋灵'
+      - '&r'
+      - '&6需要击杀:'
+      - '&8 - &7凋零 x1'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$250,000'
+      - '&8 - &7解锁末地'
+      - '&r'
+      - '&6击杀凋零: &c&l✘'
+      - '&r'
+      - '&c&l ✘ &7未完成'
+  can-complete:
+    type: PAPER
+    name: '&a杀手 IV'
+    lore:
+      - '&7在结束之前, 还剩下一个任务'
+      - '&7杀死凋灵'
+      - '&r'
+      - '&6需要击杀:'
+      - '&8 - &7凋零 x1'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$250,000'
+      - '&8 - &7解锁末地'
+      - '&r'
+      - '&6击杀凋零: &a&l✔'
+      - '&r'
+      - '&a&l ✔ &7点击领取您的任务奖励'
+    enchants:
+      DURABILITY: 1
+    flags:
+      - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&a杀手 IV'
+    lore:
+      - '&7在结束之前, 还剩下一个任务'
+      - '&7杀死凋灵'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$250,000'
+      - '&8 - &7解锁末地'
+      - '&r'
+      - '&6击杀凋零: &a&l✔'
+      - '&r'
+      - '&a&l ✔ &7已完成任务并领取奖励'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

@@ -1,0 +1,92 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+title: '&8{}'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ # # # # # # # $'
+  - '$ @ # % # & # * $'
+  - '$ # # # # # # # $'
+  - '$ $ $ $ $ $ $ $ $'
+
+items:
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '@':
+    role: Member
+    type: LEATHER_CHESTPLATE
+    name: '&e成员'
+    lore:
+      - '&7点击将此玩家空岛角色设置为成员'
+    flags:
+      - HIDE_ATTRIBUTES
+  '%':
+    role: Moderator
+    type: GOLDEN_CHESTPLATE
+    name: '&e员工'
+    lore:
+      - '&7点击将此玩家空岛角色设置为员工'
+    flags:
+      - HIDE_ATTRIBUTES
+  '&':
+    role: Admin
+    type: IRON_CHESTPLATE
+    name: '&e管理员'
+    lore:
+      - '&7点击将此玩家空岛角色设置为管理员'
+    flags:
+      - HIDE_ATTRIBUTES
+  '*':
+    role: Leader
+    type: DIAMOND_CHESTPLATE
+    name: '&e所有者'
+    lore:
+      - '&7点击将所有权转移给此玩家'
+    flags:
+      - HIDE_ATTRIBUTES
+
+sounds:
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '%':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '&':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '*':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

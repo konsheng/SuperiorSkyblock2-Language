@@ -1,0 +1,129 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+# The mission file to use
+mission-file: KillsMissions
+
+# Whether the mission should be given when completing all requirements.
+auto-reward: true
+
+# Should block counts of players get reset when completing the mission?
+reset-after-finish: true
+
+# Rewards given when completing the mission.
+rewards:
+  commands:
+    - 'cmi money give %player% 75000'
+    - 'is admin msg %player% &e&l杀手 &8» &7Successfully finished the mission Slayer III!'
+    - 'is admin msg %player% &e&l杀手 &8» &7It is time to show who is the boss here.'
+    - 'is admin msg %player% &e&l杀手 &8» &7&o有关下一个任务的更多信息, 请查看 /is missions'
+
+# List of required missions that must be completed before completing this one.
+required-missions:
+  - 'slayer_1'
+  - 'slayer_2'
+
+# List of all required blocks must be gathered in order to complete the mission.
+required-entities:
+  '1':
+    types:
+      - 'BLAZE'
+    amount: 12
+  '2':
+    types:
+      - 'ENDERMAN'
+    amount: 24
+  '3':
+    types:
+      - 'WITHER_SKELETON'
+    amount: 12
+
+# Icons used in the menus.
+icons:
+  not-completed:
+    type: PAPER
+    name: '&a杀手 III'
+    lore:
+      - '&7是时候为战斗Boss做准备了'
+      - '&7杀死 12 个烈焰人, 12 个凋灵骷髅和 24 个末影人'
+      - '&r'
+      - '&6需要击杀:'
+      - '&8 - &7烈焰人 x12'
+      - '&8 - &7凋零骷髅 x12'
+      - '&8 - &7末影人 x12'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$75,000'
+      - '&r'
+      - '&6击杀烈焰人: &7{value_blaze}/12'
+      - '&6击杀凋零骷髅: &7{value_wither_skeleton}/12'
+      - '&6击杀末影人: &7{value_enderman}/24'
+      - '&6任务进度: &7{0}%'
+      - '&r'
+      - '&c&l ✘ &7未完成'
+  can-complete:
+    type: PAPER
+    name: '&a杀手 III'
+    lore:
+      - '&7是时候为战斗Boss做准备了'
+      - '&7杀死 12 个烈焰人, 12 个凋灵骷髅和 24 个末影人'
+      - '&r'
+      - '&6需要击杀:'
+      - '&8 - &7烈焰人 x12'
+      - '&8 - &7凋零骷髅 x12'
+      - '&8 - &7末影人 x12'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$75,000'
+      - '&r'
+      - '&6击杀烈焰人: &712/12'
+      - '&6击杀凋零骷髅: &712/12'
+      - '&6击杀末影人: &724/24'
+      - '&6任务进度: &7100%'
+      - '&r'
+      - '&a&l ✔ &7点击领取您的任务奖励'
+    enchants:
+      DURABILITY: 1
+    flags:
+      - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&a杀手 III'
+    lore:
+      - '&7是时候为战斗Boss做准备了'
+      - '&7杀死 12 个烈焰人, 12 个凋灵骷髅和 24 个末影人'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7$75,000'
+      - '&r'
+      - '&6击杀烈焰人: &712/12'
+      - '&6击杀凋零骷髅: &712/12'
+      - '&6击杀末影人: &724/24'
+      - '&6任务进度: &7100%'
+      - '&r'
+      - '&a&l ✔ &7已完成任务并领取奖励'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

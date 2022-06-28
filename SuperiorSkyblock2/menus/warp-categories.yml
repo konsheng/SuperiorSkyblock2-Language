@@ -1,0 +1,63 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+title: '&8地标类别'
+previous-menu: true
+pattern:
+- '@ @ @ @ @ @ @ @ @'
+- '@ @ @ @ @ @ @ @ @'
+- '@ @ @ @ @ @ @ @ @'
+- '@ @ @ @ @ @ @ @ @'
+- '$ $ $ $ $ $ $ $ $'
+- '# # % # * # ^ # #'
+
+# This lore is added to category icons.
+edit-lore:
+- '&f '
+- '&f '
+- '&7&o(( &f&o左键点击 &7&o查看空岛地标 ))'
+- '&7&o(( &f&o右键点击 &7&o编辑类别 ))'
+items:
+  '@':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+  '%':
+    type: PAPER
+    name: '&c上一页'
+  '*':
+    type: SUNFLOWER
+    name: '&a当前页面'
+    lore:
+    - '&7页面 1'
+  ^:
+    type: PAPER
+    name: '&c下一页'
+  $:
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+slots: '@'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

@@ -1,0 +1,67 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+title: '&8类别: {0}'
+previous-menu: true
+
+pattern:
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ ! @ @ ~ @ @ $ @'
+  - '@ @ @ @ @ @ @ @ @'
+
+success-update-sound:
+  type: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 0.2
+  pitch: 0.2
+
+category-rename: '!'
+category-icon: '~'
+category-warps: '$'
+
+items:
+  '!':
+    type: BOOK
+    name: '&6重命名类别'
+    lore:
+      - '&f '
+      - '&7&o(( &f&o点击 &7&o重命名类别 ))'
+  '~':
+    type: STONE
+    lore:
+      - '&7&o您可以使用以下变量:'
+      - '&7&o{0} 用于地标的名称'
+      - '&7&o{1} 用于地标的位置'
+      - '&7&o{2} 用于地标的公开状态'
+      - '&7&o(( &f&o左键点击 &7&o编辑类别的槽位 ))'
+      - '&7&o(( &f&o右键点击 &7&o编辑图标 ))'
+  '$':
+    type: ENDER_PEARL
+    name: '&6空岛地标'
+    lore:
+      - '&f '
+      - '&7&o(( &f&o点击 &7&o编辑地标类别 ))'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

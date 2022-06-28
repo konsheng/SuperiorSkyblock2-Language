@@ -1,0 +1,1090 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+title: '&8空岛升级'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '% % @ % # % ^ % %'
+  - '% % % ! % + % % %'
+  - '% % * % ~ % & % %'
+  - '$ $ $ $ $ $ $ $ $'
+
+items:
+  '$':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&f'
+
+upgrades:
+  hoppers-limit:
+    item: '@'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f2'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x16'
+          - '&d价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f2'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x16'
+          - '&d价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f3'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x32'
+          - '&d价格: &f$3,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f3'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x32'
+          - '&d价格: &f$3,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f4'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x64'
+          - '&d价格: &f$9,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&d&l漏斗数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一级: &f4'
+          - '&r'
+          - '&7提高您空岛最大漏斗数量'
+          - '&r'
+          - '&d数量: &f漏斗 x64'
+          - '&d价格: &f$9,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到漏斗数量的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: HOPPER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到漏斗数量的最高等级'
+  crop-growth:
+    item: '#'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x2'
+          - '&e价格: &f$100,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x2'
+          - '&e价格: &f$100,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x3'
+          - '&e价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x3'
+          - '&e价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x4'
+          - '&e价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&e&l农作物生长速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&e下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上所有作物的生长速度'
+          - '&r'
+          - '&e生长: &f速度 x4'
+          - '&e价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到农作物生长速度的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: DIAMOND_HOE
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到农作物生长速度的最高等级'
+  spawner-rates:
+    item: '^'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x2'
+          - '&b价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x2'
+          - '&b价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x3'
+          - '&b价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x3'
+          - '&b价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x4'
+          - '&b价格: &f$2,500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&b&l刷怪笼速度升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&b下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上所有刷怪笼的刷怪速度'
+          - '&r'
+          - '&b刷怪: &f速度 x4'
+          - '&b价格: &f$2,500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到刷怪笼速度的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: SPAWNER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到刷怪笼速度的最高等级'
+  mob-drops:
+    item: '*'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x2'
+          - '&4价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x2'
+          - '&4价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x3'
+          - '&4价格: &f$2,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x3'
+          - '&4价格: &f$2,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x4'
+          - '&4价格: &f$5,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&4&l战利品掉落数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&4下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上的生物战利品掉落数量'
+          - '&r'
+          - '&4数量: &f掉落物 x4'
+          - '&4价格: &f$5,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到战利品掉落数量的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: ROTTEN_FLESH
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到战利品掉落数量的最高等级'
+  members-limit:
+    item: '~'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x8'
+          - '&2价格: &f$100,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f2'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x8'
+          - '&2价格: &f$100,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x16'
+          - '&2价格: &f$300,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f3'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x16'
+          - '&2价格: &f$300,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x32'
+          - '&2价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&2&l空岛成员数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&2下一等级: &f4'
+          - '&r'
+          - '&7提高空岛上允许的最大成员数量'
+          - '&r'
+          - '&2数量: &f成员 x32'
+          - '&2价格: &f$500,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到空岛成员数量的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到空岛成员数量的最高等级'
+  border-size:
+    item: '!'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f50 方块'
+          - '&9价格: &f$30,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f50 方块'
+          - '&9价格: &f$30,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f75 方块'
+          - '&9价格: &f$80,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f75 方块'
+          - '&9价格: &f$80,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f125 方块'
+          - '&9价格: &f$150,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&9&l空岛半径范围升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&9下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛的半径'
+          - '&r'
+          - '&9半径: &f125 方块'
+          - '&9价格: &f$150,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到空岛半径范围的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: BARRIER
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到空岛半径范围的最高等级'
+  generator-rates:
+    item: '+'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f92% 石头'
+          - ' &7 - &f5% 煤矿'
+          - ' &7 - &f3% 红石矿'
+          - '&r'
+          - '&3价格: &f$25,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f92% 石头'
+          - ' &7 - &f5% 煤矿'
+          - ' &7 - &f3% 红石矿'
+          - '&r'
+          - '&3价格: &f$25,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f80% 石头'
+          - ' &7 - &f8% 煤矿'
+          - ' &7 - &f6% 红石矿'
+          - ' &7 - &f4% 青金石矿'
+          - ' &7 - &f2% 铁矿'
+          - '&r'
+          - '&3价格: &f$75,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f80% 石头'
+          - ' &7 - &f8% 煤矿'
+          - ' &7 - &f6% 红石矿'
+          - ' &7 - &f4% 青金石矿'
+          - ' &7 - &f2% 铁矿'
+          - '&r'
+          - '&3价格: &f$75,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f65% 石头'
+          - ' &7 - &f10% 煤矿'
+          - ' &7 - &f9% 红石矿'
+          - ' &7 - &f6% 青金石矿'
+          - ' &7 - &f4% 铁矿'
+          - ' &7 - &f3% 金矿'
+          - ' &7 - &f2% 钻石矿'
+          - ' &7 - &f1% 绿宝石矿'
+          - '&r'
+          - '&3价格: &f$150,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&3&l刷石机刷矿概率升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&3下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛上的刷石机刷矿概率'
+          - '&r'
+          - '&3概率:'
+          - ' &7 - &f65% 石头'
+          - ' &7 - &f10% 煤矿'
+          - ' &7 - &f9% 红石矿'
+          - ' &7 - &f6% 青金石矿'
+          - ' &7 - &f4% 铁矿'
+          - ' &7 - &f3% 金矿'
+          - ' &7 - &f2% 钻石矿'
+          - ' &7 - &f1% 绿宝石矿'
+          - '&r'
+          - '&3价格: &f$150,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到刷石机刷矿概率的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: COBBLESTONE
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到刷石机刷矿概率的最高等级'
+  minecarts-limit:
+    item: '&'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x8'
+          - '&d价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f2'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x8'
+          - '&d价格: &f$1,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x16'
+          - '&d价格: &f$3,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f3'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x16'
+          - '&d价格: &f$3,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &a(可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x32'
+          - '&d价格: &f$9,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&d&l矿车数量升级 &c(不可用)'
+        lore:
+          - '&r'
+          - '&d下一等级: &f4'
+          - '&r'
+          - '&7提高您空岛上的矿车数量'
+          - '&r'
+          - '&d数量: &f矿车 x32'
+          - '&d价格: &f$9,000,000'
+          - '&r'
+          - '&a左键点击以购买升级'
+    '4':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到矿车数量的最高等级'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: MINECART
+        name: '&c&l最大等级'
+        lore:
+          - '&7您已达到矿车数量的最高等级'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################

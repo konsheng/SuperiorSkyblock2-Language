@@ -1,0 +1,136 @@
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
+
+# The mission file to use
+mission-file: FarmingMissions
+
+# Whether the mission should be given when completing all requirements.
+auto-reward: true
+
+# Should block counts of players get reset when completing the mission?
+reset-after-finish: true
+
+# Rewards given when completing the mission.
+rewards:
+  items:
+    '1':
+      type: SUGAR_CANE
+      amount: 1
+    '2':
+      type: CACTUS
+      amount: 1
+  commands:
+    - 'cmi money give %player% 5000'
+    - 'is admin msg %player% &e&l农夫 &8» &7您已成功完成任务 &a农夫 II'
+
+# List of required missions that must be completed before completing this one.
+required-missions:
+  - 'farmer_1'
+
+# List of all required blocks must be gathered in order to complete the mission.
+required-plants:
+  '1':
+    types:
+      - 'BEETROOTS'
+    amount: 10
+  '2':
+    types:
+      - 'PUMPKIN'
+    amount: 10
+  '3':
+    types:
+      - 'MELON'
+    amount: 10
+
+# Icons used in the menus.
+icons:
+  not-completed:
+    type: PAPER
+    name: '&a农夫 II'
+    lore:
+      - '&7用甜菜根、南瓜和西瓜扩大您的农场'
+      - '&r'
+      - '&6需要种植:'
+      - '&8 - &7甜菜根 x10'
+      - '&8 - &7南瓜 x10'
+      - '&8 - &7西瓜 x10'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7甘蔗 x1'
+      - '&8 - &7仙人掌 x1'
+      - '&8 - &7$5,000'
+      - '&r'
+      - '&6种植甜菜根: &7{value_beetroots}/10'
+      - '&6种植南瓜: &7{value_pumpkin}/10'
+      - '&6种植西瓜: &7{value_melon}/10'
+      - '&6任务进度: &7{0}%'
+      - '&r'
+      - '&c&l ✘ &7未完成'
+  can-complete:
+    type: PAPER
+    name: '&a农夫 II'
+    lore:
+      - '&7用甜菜根、南瓜和西瓜扩大您的农场'
+      - '&r'
+      - '&6需要种植:'
+      - '&8 - &7甜菜根 x10'
+      - '&8 - &7南瓜 x10'
+      - '&8 - &7西瓜 x10'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7甘蔗 x1'
+      - '&8 - &7仙人掌 x1'
+      - '&8 - &7$5,000'
+      - '&r'
+      - '&6种植甜菜根: &710/10'
+      - '&6种植南瓜: &710/10'
+      - '&6种植西瓜: &710/10'
+      - '&6任务进度: &7100%'
+      - '&r'
+      - '&a&l ✔ &7点击领取您的任务奖励'
+    enchants:
+      DURABILITY: 1
+    flags:
+      - HIDE_ENCHANTS
+  completed:
+    type: MAP
+    name: '&a农夫 II'
+    lore:
+      - '&7用甜菜根、南瓜和西瓜扩大您的农场'
+      - '&r'
+      - '&6任务奖励:'
+      - '&8 - &7甘蔗 x1'
+      - '&8 - &7仙人掌 x1'
+      - '&8 - &7$5,000'
+      - '&r'
+      - '&6种植甜菜根: &710/10'
+      - '&6种植南瓜: &710/10'
+      - '&6种植西瓜: &710/10'
+      - '&6任务进度: &7100%'
+      - '&r'
+      - '&a&l ✔ &7已完成任务并领取奖励'
+
+####################################################################################################
+##                                                                                                ##
+##                                         File Information                                       ##
+##                                                                                                ##
+##  Plugin name: SuperiorSkyblock 2                                                               ##
+##  Developer: Ome_R                                                                              ##
+##  Language: Simplified Chinese                                                                  ##
+##  Translator: Konsheng                                                                          ##
+##  Translation time: 2022/6/28 GMT+8                                                             ##
+##  Github: https://github.com/konsheng/SuperiorSkyblock2-Language                                ##
+##  License: https://github.com/konsheng/SuperiorSkyblock2-Language/blob/main/LICENSE.md          ##
+##                                                                                                ##
+####################################################################################################
